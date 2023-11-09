@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{CE1B35EF-8CF0-4232-A47D-97A88E7C6F67}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StepWiseBuilder", "StepWiseBuilder\StepWiseBuilder.csproj", "{00B724D3-E221-4AC5-880E-1032D2BEB569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveGenericsBuilder", "RecursiveGenericsBuilder\RecursiveGenericsBuilder.csproj", "{5C850B99-0C58-4AC8-9B76-FD35A8837D00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveGenericsBuilder", "RecursiveGenericsBuilder\RecursiveGenericsBuilder.csproj", "{5C850B99-0C58-4AC8-9B76-FD35A8837D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalBuilder", "FunctionalBuilder\FunctionalBuilder.csproj", "{EC46B289-3EF5-4184-A9DB-8A220BC5F966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacetedBuilder", "FacetedBuilder\FacetedBuilder.csproj", "{326FEBB0-321F-45CC-89B9-3E64FD2A10F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CE1B35EF-8CF0-4232-A47D-97A88E7C6F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE1B35EF-8CF0-4232-A47D-97A88E7C6F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE1B35EF-8CF0-4232-A47D-97A88E7C6F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE1B35EF-8CF0-4232-A47D-97A88E7C6F67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{00B724D3-E221-4AC5-880E-1032D2BEB569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{00B724D3-E221-4AC5-880E-1032D2BEB569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B724D3-E221-4AC5-880E-1032D2BEB569}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +25,14 @@ Global
 		{5C850B99-0C58-4AC8-9B76-FD35A8837D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C850B99-0C58-4AC8-9B76-FD35A8837D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C850B99-0C58-4AC8-9B76-FD35A8837D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC46B289-3EF5-4184-A9DB-8A220BC5F966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC46B289-3EF5-4184-A9DB-8A220BC5F966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC46B289-3EF5-4184-A9DB-8A220BC5F966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC46B289-3EF5-4184-A9DB-8A220BC5F966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326FEBB0-321F-45CC-89B9-3E64FD2A10F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326FEBB0-321F-45CC-89B9-3E64FD2A10F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326FEBB0-321F-45CC-89B9-3E64FD2A10F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326FEBB0-321F-45CC-89B9-3E64FD2A10F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
