@@ -19,19 +19,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkReplacement", "BulkRepl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{F974CB03-11E4-4B4E-B81A-0540EB4D3035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{0643078F-6B20-464B-B3A7-780399D22373}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{0643078F-6B20-464B-B3A7-780399D22373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyThroughSerialization", "CopyThroughSerialization\CopyThroughSerialization.csproj", "{4A572932-404E-418D-95DB-A8B67BBD453B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyThroughSerialization", "CopyThroughSerialization\CopyThroughSerialization.csproj", "{4A572932-404E-418D-95DB-A8B67BBD453B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonImplementation", "SingletonImplementation\SingletonImplementation.csproj", "{AE44ACD8-D3D1-4E7B-BD7E-2ABFF4C3AF39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonImplementation", "SingletonImplementation\SingletonImplementation.csproj", "{AE44ACD8-D3D1-4E7B-BD7E-2ABFF4C3AF39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonTests", "SingletonTests\SingletonTests.csproj", "{42A15C9B-EB66-4B29-9599-2555EDD6DE40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonTests", "SingletonTests\SingletonTests.csproj", "{42A15C9B-EB66-4B29-9599-2555EDD6DE40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoState", "MonoState\MonoState.csproj", "{8B107120-C9E9-4400-8BA8-FF45F1F0F6C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoState", "MonoState\MonoState.csproj", "{8B107120-C9E9-4400-8BA8-FF45F1F0F6C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerThreadSingleton", "PerThreadSingleton\PerThreadSingleton.csproj", "{44EE5919-C572-432D-B09E-D94A05E9A856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerThreadSingleton", "PerThreadSingleton\PerThreadSingleton.csproj", "{44EE5919-C572-432D-B09E-D94A05E9A856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientContext", "AmbientContext\AmbientContext.csproj", "{04966FC5-DB51-4141-BCA3-EA7A4009C086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbientContext", "AmbientContext\AmbientContext.csproj", "{04966FC5-DB51-4141-BCA3-EA7A4009C086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorRasterDemoAdapter", "VectorRasterDemoAdapter\VectorRasterDemoAdapter.csproj", "{B75A2931-7E54-468D-8D2A-A5F2A54CB9B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{04966FC5-DB51-4141-BCA3-EA7A4009C086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04966FC5-DB51-4141-BCA3-EA7A4009C086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04966FC5-DB51-4141-BCA3-EA7A4009C086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75A2931-7E54-468D-8D2A-A5F2A54CB9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75A2931-7E54-468D-8D2A-A5F2A54CB9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75A2931-7E54-468D-8D2A-A5F2A54CB9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75A2931-7E54-468D-8D2A-A5F2A54CB9B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
