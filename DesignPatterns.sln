@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternExercise", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4Tests", "Exercise_4Tests\Exercise_4Tests.csproj", "{16BBC161-5050-4EC1-AD07-A59D4089B3F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatternExercise", "AdapterPatternExercise\AdapterPatternExercise.csproj", "{4256389B-5F5A-4991-AB78-AAC054C1D75E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_5Tests", "Exercise_5Tests\Exercise_5Tests.csproj", "{ADD67797-728D-40EF-87FF-393FD4E0B644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{16BBC161-5050-4EC1-AD07-A59D4089B3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16BBC161-5050-4EC1-AD07-A59D4089B3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16BBC161-5050-4EC1-AD07-A59D4089B3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4256389B-5F5A-4991-AB78-AAC054C1D75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4256389B-5F5A-4991-AB78-AAC054C1D75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4256389B-5F5A-4991-AB78-AAC054C1D75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4256389B-5F5A-4991-AB78-AAC054C1D75E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD67797-728D-40EF-87FF-393FD4E0B644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD67797-728D-40EF-87FF-393FD4E0B644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD67797-728D-40EF-87FF-393FD4E0B644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD67797-728D-40EF-87FF-393FD4E0B644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
