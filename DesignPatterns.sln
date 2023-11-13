@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerThreadSingleton", "PerTh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmbientContext", "AmbientContext\AmbientContext.csproj", "{04966FC5-DB51-4141-BCA3-EA7A4009C086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorRasterDemoAdapter", "VectorRasterDemoAdapter\VectorRasterDemoAdapter.csproj", "{B75A2931-7E54-468D-8D2A-A5F2A54CB9B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorRasterDemoAdapter", "VectorRasterDemoAdapter\VectorRasterDemoAdapter.csproj", "{B75A2931-7E54-468D-8D2A-A5F2A54CB9B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericValueAdapter", "GenericValueAdapter\GenericValueAdapter.csproj", "{E565BAD8-2227-41CA-A6FD-0AAD23EDF6F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericValueAdapter", "GenericValueAdapter\GenericValueAdapter.csproj", "{E565BAD8-2227-41CA-A6FD-0AAD23EDF6F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionAdapter", "DependencyInjectionAdapter\DependencyInjectionAdapter.csproj", "{C3DE35AF-E587-4B8D-ABEC-DC70F799E538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{E565BAD8-2227-41CA-A6FD-0AAD23EDF6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E565BAD8-2227-41CA-A6FD-0AAD23EDF6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E565BAD8-2227-41CA-A6FD-0AAD23EDF6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DE35AF-E587-4B8D-ABEC-DC70F799E538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DE35AF-E587-4B8D-ABEC-DC70F799E538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DE35AF-E587-4B8D-ABEC-DC70F799E538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DE35AF-E587-4B8D-ABEC-DC70F799E538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
